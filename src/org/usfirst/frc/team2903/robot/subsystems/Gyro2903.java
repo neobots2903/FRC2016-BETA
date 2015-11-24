@@ -13,7 +13,7 @@ public class Gyro2903 {
 			
 		double angle = gyro.getAngle();
 		double	x = OI.Joy2.getX();
-		double CAngle = gyro.getAngle();
+		//double CAngle = gyro.getAngle();
 		
 		if(x == 0){
 		

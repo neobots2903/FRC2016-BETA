@@ -3,12 +3,8 @@ package org.usfirst.frc.team2903.robot.commands;
 import org.usfirst.frc.team2903.robot.OI;
 import org.usfirst.frc.team2903.robot.Robot;
 
-import com.sun.glass.ui.Timer;
-
-import edu.wpi.first.wpilibj.CameraServer;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj.vision.USBCamera;
 
 public class Teleop extends Command {
 

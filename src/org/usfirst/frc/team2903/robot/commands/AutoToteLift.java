@@ -2,10 +2,6 @@
 package org.usfirst.frc.team2903.robot.commands;
 
 import org.usfirst.frc.team2903.robot.Robot;
-import org.usfirst.frc.team2903.robot.RobotMap;
-
-import edu.wpi.first.wpilibj.*;
-import edu.wpi.first.wpilibj.command.Command;
 
 public class AutoToteLift extends AutoBase {
 

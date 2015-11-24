@@ -6,7 +6,6 @@ import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.Jaguar;
 import edu.wpi.first.wpilibj.Solenoid;
-import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
@@ -31,7 +30,7 @@ public class Elevator extends Subsystem {
 	private long endTime;
 	private float rateMovement;
 	private float upwardRate = 160;
-	private float downwardRate = -180;
+	//private float downwardRate = -180;
 	private float rateAdjust = 5;
 	private double speedAdjust = 0.1;
 	private double autoSpeed;
