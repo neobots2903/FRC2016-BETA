@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project name="FRC Deployment" default="deploy">
 
   <!--
@@ -20,11 +19,12 @@
   <!-- <property name="target" value=""/> -->
 
   <!-- Any other property in build.properties can also be overridden. -->
+
   
-  <property file="${user.home}/wpilib/wpilib.properties"/>
+  <property file="src/wpilib/wpilib.properties"/>
   <property file="build.properties"/>
-  <property file="${user.home}/wpilib/java/${version}/ant/build.properties"/>
+  <property file="src/wpilib/java/${version}/ant/build.properties"/>
   
-  <import file="c:/Users/Robotics/wpilib/java/current/ant/build.xml"/>
+ <import file="src/wpilib/java/current/ant/build.xml"/>
 
 </project> 
